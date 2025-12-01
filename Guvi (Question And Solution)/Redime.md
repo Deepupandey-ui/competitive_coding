@@ -28,3 +28,25 @@ bus
 Sample Output:
 Ticket Type: Bus Ticket
 Fare: 600
+Q.2--> 1658. Library Management System:-Library Management System
+Problem Statement:
+Create two interfaces: BookOperations (methods addBook(String book)) and UserOperations (methods borrowBook(String book)).
+A class Library implements both.
+Description:
+The user first adds a book.
+Another user borrows the book.
+If the book is available, borrowing succeeds. Otherwise, a message should display "Book not available".
+
+Input Format:
+First line: Book name to add.
+Second line: A command in the format: borrow <bookName>
+Output Format:
+Messages confirming whether the book was added or borrowed successfully.
+Sample Input:
+JavaProgramming
+borrow JavaProgramming
+
+Sample Output:
+Book added: JavaProgramming
+Book borrowed: JavaProgramming
+
