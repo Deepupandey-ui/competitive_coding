@@ -50,3 +50,36 @@ Sample Output:
 Book added: JavaProgramming
 Book borrowed: JavaProgramming
 
+Q.3:- 1657. Student Result Evaluation
+
+
+
+Student Result Evaluation
+
+
+Problem Statement:
+Write a program that evaluates whether a student passes or fails based on marks and attendance. The program should use multiple inheritance with interfaces.
+
+Define an interface Marks with method enterMarks(int marks).
+Define an interface Attendance with method enterAttendance(int attendance).
+Implement both interfaces in the Student class and provide a method checkResult() that checks:
+Marks must be ≥ 40
+Attendance must be ≥ 75%
+
+If both conditions are met, display "Result: Pass", otherwise "Result: Fail".
+Description:
+The program accepts marks and attendance percentage as input.
+Uses multiple inheritance (via interfaces).
+Evaluates and prints result.
+
+Input Format:
+First line → Marks (integer)
+Second line → Attendance percentage (integer)
+Output Format:
+"Result: Pass" or "Result: Fail"
+
+Sample Input:
+55
+80
+Sample Output:
+Result: Pass
