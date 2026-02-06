@@ -38,3 +38,31 @@ Use a window frame:
 This creates the dynamic window:
 
 1–7, 2–8, 3–9, ...
+
+602. Friend Requests II: Who Has the Most Friends: 
+ 
+ Expaination:
+    Problem Understanding
+
+Each row in RequestAccepted represents a friendship between two people:
+(requester_id , accepter_id)
+Friendship is bidirectional
+
+So for every row:
+requester_id gets one friend
+accepter_id gets one friend
+
+💡 Key Idea
+We must count friends for both columns.
+That means:
+treat requester_id as a person
+treat accepter_id as a person
+put both into one list
+Now we simply count how many times each person appears.
+
+🪜 Step-by-step Logic
+Take all values from requester_id.
+Take all values from accepter_id.
+Combine both lists into a single column of person IDs.
+Count how many times each person appears.
+The person with the highest count has the most friends.
