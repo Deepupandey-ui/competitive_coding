@@ -23,6 +23,13 @@ Q4. Slow and Fast Pointers use and Problems:-->
          1.find middle of LL
          2.second half reverse
          3.check first half and second half
+    4--> 142. Linked List Cycle II
+        explaination : 
+          1. slow.next and fast.next.next;
+            if slow equal fast then break;
+          2. if fast equal null or fast.next equal null then return null;
+          3. slow = head;
+             loop till when slow equal fast then return slow ;   
 
                
                
