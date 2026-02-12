@@ -71,3 +71,7 @@ middle.next = null
  merge using:
 p1.next = p2
 p2.next = n1
+
+287. Find the Duplicate Number
+    this is also slow fast pointer proble but based on array
+      
