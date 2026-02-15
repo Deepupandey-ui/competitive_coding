@@ -1,3 +1,4 @@
+package LinkedList;
 //876. Middle of the Linked List
   public class ListNode {
       int val;

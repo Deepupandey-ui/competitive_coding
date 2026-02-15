@@ -1,3 +1,4 @@
+package LinkedList;
 class DuplicateNum {
     public int findDuplicate(int[] nums) {
         int slow = nums[0];
