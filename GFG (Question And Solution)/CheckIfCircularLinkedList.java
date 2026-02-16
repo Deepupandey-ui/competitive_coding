@@ -1,4 +1,7 @@
 // Structure of LinkedList
+
+//import LinkedList.Node;
+
 class Node
 {
     int data;
