@@ -1,14 +1,14 @@
 package LinkedList;
 
-class ListNode {
-    ListNode next;
-    int val;
+// class ListNode {
+//     ListNode next;
+//     int val;
 
-    public ListNode(int val) {
-        this.val = val;
-        next = null;
-    }
-}
+//     public ListNode(int val) {
+//         this.val = val;
+//         next = null;
+//     }
+// }
 
 public class RemoveCycle {
 
