@@ -16,7 +16,7 @@ import java.util.*;
  *     }
  * }
  */
-class BinaryTreePreorderTraversal{
+class BinaryTreePostorderTraversal{
     public List<Integer> postorderTraversal(TreeNode root) {
        ArrayList<Integer> list = new ArrayList<>();
        postOrder(root,list);
