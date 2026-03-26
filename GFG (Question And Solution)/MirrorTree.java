@@ -1,3 +1,4 @@
+
 class Node
 {
     int data;
@@ -10,7 +11,7 @@ class Node
 }
 
 
-class Solution {
+public class MirrorTree {
     void mirror(Node root) {
         // code here
         if(root==null) return; 
